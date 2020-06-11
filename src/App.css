@@ -1,0 +1,49 @@
+.h1 {
+  color: rgba(15, 14, 14, 1);
+  font-size: 2.3em;
+  font-family: monospace;
+  font-weight: 150px;
+  margin: 5px;
+}
+
+.h2 {
+  color: rgb(224, 213, 213);
+  font-size: 4em;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 150px;
+  margin-top: 2%;
+}
+
+.h3 {
+  color: rgba(15, 14, 14, 0.6);
+  font-size: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #e68e00 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+  margin-top: 1%;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #e68e00 5%, #ffec64 100%);
+	background-color:#e68e00;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
